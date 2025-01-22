@@ -3,10 +3,10 @@ def find_max(lst):
     """return the maximum element"""
 
     current_max = lst[0]
+    for i in lst:
+        if i > current_max:
+            current_max = i
 
-    #
-    #  YOUR CODE GOES HERE
-    #
 
     return current_max
 
